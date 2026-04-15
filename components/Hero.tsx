@@ -6,7 +6,7 @@ const chains = [
   { symbol:"Ξ",   name:"Ethereum", color:"#627EEA", bg:"rgba(98,126,234,.12)",  native:false },
   { symbol:"B",   name:"Base",     color:"#0052FF", bg:"rgba(0,82,255,.12)",    native:false },
   { symbol:"A",   name:"Arbitrum", color:"#28A0F0", bg:"rgba(40,160,240,.12)",  native:false },
-  { symbol:"◎",   name:"Solana",   color:"#9945FF", bg:"rgba(153,69,255,.12)",  native:false },
+  { symbol:"S",   name:"Solana",   color:"#9945FF", bg:"rgba(153,69,255,.12)",  native:false },
   { symbol:"P",   name:"Polygon",  color:"#8247E5", bg:"rgba(130,71,229,.12)",  native:false },
 ];
 
