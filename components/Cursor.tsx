@@ -12,6 +12,7 @@ export default function Cursor() {
       if (dot.current) { dot.current.style.left = mx+"px"; dot.current.style.top = my+"px"; }
     };
     document.addEventListener("mousemove", onMove);
+    
     const tick = () => {
       rx += (mx-rx)*0.11; ry += (my-ry)*0.11;
       if (ring.current) { ring.current.style.left = rx+"px"; ring.current.style.top = ry+"px"; }
