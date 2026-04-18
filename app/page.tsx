@@ -11,12 +11,14 @@ export default function Home() {
     <>
       <Cursor />
       <Navbar />
+
       <main>
         <Hero />
         <Features />
         <SdkApi />
         <CTA />
       </main>
+      
       <Footer />
     </>
   );
