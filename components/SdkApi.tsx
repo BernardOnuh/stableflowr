@@ -26,7 +26,7 @@ const API_CODE = `curl -X POST https://api.stableflowr.xyz/v1/transfer \\
     "from":      { "chain": "stacks", "token": "USDC" },
     "to":        { "chain": "arbitrum", "token": "USDC" },
     "amount":    "500",
-    "recipient": "0xabc...def"
+    "recipient": "0xabcd...def"
   }'
 
 # Response
