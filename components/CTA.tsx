@@ -1,5 +1,5 @@
 "use client";
-const chains = ["Stacks","Ethereum","Base","Arbitrum","Optimism","Polygon","Solana","Avalanche","BSC","zkSync","Linea","Scroll"];
+const chains = ["Stacks","Ethereum","Base","Arbitrum","Optimism","Polygon","Solana","Avalanche","BSC","zkSync","Linea","Scroll,Mode"];
 
 export default function CTA() {
   const doubled = [...chains,...chains];
