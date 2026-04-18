@@ -7,13 +7,13 @@
 
 :root {
   --orange: #FF5500;
-  --orange-dim: #D94A00;
+  --orange-dim: #c54302;
   --black: #080808;
   --surface: #101010;
   --border: rgba(255,255,255,0.08);
   --white: #F4EFE9;
-  --muted: #5A5A55;
-  --muted2: #252523;
+  --muted: #545451;
+  --muted2: #0e0e0d;
 }
 
 @layer base {
