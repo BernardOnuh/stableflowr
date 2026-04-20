@@ -64,7 +64,7 @@ export default function Footer() {
               <div style={{ display:"flex",flexDirection:"column",gap:10 }}>
                 {col.items.map(item=>(
                   <a key={item} href="#" style={{
-                    textDecoration:"none",color:"#5A5A55",fontSize:13,
+                    textDecoration:"none",color:"#393937",fontSize:13,
                     fontFamily:"Instrument Sans,sans-serif",transition:"color .2s",
                   }}
                   onMouseEnter={e=>(e.currentTarget.style.color="#F4EFE9")}
