@@ -5,7 +5,6 @@ export default function CTA() {
   const doubled = [...chains,...chains];
   return (
     <>
-      
       <div id="chains" style={{ borderTop:"1px solid rgba(255,255,255,.08)",borderBottom:"1px solid rgba(255,255,255,.08)",padding:"18px 0",overflow:"hidden",position:"relative" }}>
         <div style={{ position:"absolute",left:0,top:0,bottom:0,width:"clamp(40px,8vw,100px)",background:"linear-gradient(90deg,#080808,transparent)",zIndex:2,pointerEvents:"none" }}/>
         <div style={{ position:"absolute",right:0,top:0,bottom:0,width:"clamp(40px,8vw,100px)",background:"linear-gradient(-90deg,#080808,transparent)",zIndex:2,pointerEvents:"none" }}/>
@@ -23,7 +22,6 @@ export default function CTA() {
         </div>
       </div>
 
-      {/* CTA */}
       <section style={{
         position:"relative",overflow:"hidden",textAlign:"center",
         padding:"clamp(72px,10vw,140px) clamp(16px,4vw,48px)",
