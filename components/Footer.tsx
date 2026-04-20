@@ -29,9 +29,9 @@ export default function Footer() {
         {/* Brand */}
         <div style={{ flexShrink:0 }}>
           <div style={{ display:"flex",alignItems:"center",gap:10,marginBottom:12 }}>
-            <div style={{ width:30,height:30,borderRadius:7,background:"#FF5500",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"Epilogue",fontWeight:900,fontSize:12,color:"#080808" }}>SF</div>
+            <div style={{ width:30,height:30,borderRadius:7,background:"#f85a0b",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"Epilogue",fontWeight:900,fontSize:12,color:"#080808" }}>SF</div>
             <span style={{ fontFamily:"Epilogue,sans-serif",fontWeight:800,fontSize:16,color:"#F4EFE9",letterSpacing:"-0.4px" }}>
-              stable<span style={{color:"#FF5500"}}>flowr</span>
+              stable<span style={{color:"#f45709"}}>flowr</span>
             </span>
           </div>
           <p style={{ color:"#5A5A55",fontSize:13,lineHeight:1.65,maxWidth:210,fontWeight:300,marginBottom:20 }}>
