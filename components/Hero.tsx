@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const chains = [
-  { symbol:"STX", name:"Stacks",   color:"#FF5500", bg:"rgba(255,85,0,.15)",    native:true  },
+  { symbol:"STX", name:"Stacks",   color:"#f35201", bg:"rgba(255,85,0,.15)",    native:true  },
   { symbol:"Ξ",   name:"Ethereum", color:"#627EEA", bg:"rgba(98,126,234,.12)",  native:false },
   { symbol:"B",   name:"Base",     color:"#0052FF", bg:"rgba(0,82,255,.12)",    native:false },
   { symbol:"A",   name:"Arbitrum", color:"#28A0F0", bg:"rgba(40,160,240,.12)",  native:false },
