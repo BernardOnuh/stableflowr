@@ -219,7 +219,7 @@ export default function Hero() {
               ))}
             </div>
 
-            {/* Code block */}
+            
             <div className="afu6" style={{
               background:"#0a0a0a", border:"1px solid rgba(255,255,255,.07)", borderRadius:12, overflow:"hidden",
               fontFamily:"JetBrains Mono,monospace",
