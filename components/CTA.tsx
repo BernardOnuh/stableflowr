@@ -1,11 +1,11 @@
 "use client";
-const chains = ["Stacks","Ethereum","Base","Arbitrum","Optimism","Polygon","Solana","Avalanche","BSC","zkSync","Linea","Scroll,Mode"];
+const chains = ["Stacks","Ethereum","Base","Arbitrum","Optimism","Polygon","Solana","Avalanche","BSC","zkSync","Linea","Scroll,Mode "];
 
 export default function CTA() {
   const doubled = [...chains,...chains];
   return (
     <>
-      {/* Marquee */}
+      
       <div id="chains" style={{ borderTop:"1px solid rgba(255,255,255,.08)",borderBottom:"1px solid rgba(255,255,255,.08)",padding:"18px 0",overflow:"hidden",position:"relative" }}>
         <div style={{ position:"absolute",left:0,top:0,bottom:0,width:"clamp(40px,8vw,100px)",background:"linear-gradient(90deg,#080808,transparent)",zIndex:2,pointerEvents:"none" }}/>
         <div style={{ position:"absolute",right:0,top:0,bottom:0,width:"clamp(40px,8vw,100px)",background:"linear-gradient(-90deg,#080808,transparent)",zIndex:2,pointerEvents:"none" }}/>
