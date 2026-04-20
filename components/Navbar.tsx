@@ -276,7 +276,6 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* Bottom CTA */}
         <div style={{ display:"flex", flexDirection:"column", gap:10, paddingTop:24, borderTop:"1px solid rgba(255,255,255,.06)" }}>
           <div style={{
             background:"rgba(255,255,255,.03)", border:"1px solid rgba(255,255,255,.07)",
