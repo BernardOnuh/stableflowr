@@ -19,6 +19,7 @@ export default function Cursor() {
       requestAnimationFrame(tick);
     };
     tick();
+    
     const els = document.querySelectorAll("a,button,[data-h]");
     els.forEach(el => {
       el.addEventListener("mouseenter", () => { dot.current?.classList.add("big"); ring.current?.classList.add("big"); });
