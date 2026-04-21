@@ -13,7 +13,7 @@
   --border: rgba(255,255,255,0.08);
   --white: #ffffff;
   --muted: #545451;
-  --muted2: #0e0e0d;
+  --muted2: #000000;
 }
 
 @layer base {
