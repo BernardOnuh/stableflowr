@@ -16,7 +16,6 @@ const config: Config = {
         xl: "1280px",
         "2xl": "1536px",
       },
-      
       colors: {
         orange: { DEFAULT: "#FF5500", dim: "#ff5804" },
         black:    "#080808",
