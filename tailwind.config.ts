@@ -22,7 +22,7 @@ const config: Config = {
         surface:  "#101010",
         surface2: "#161616",
         muted:    "#5A5A55",
-        muted2:   "#2A2A28",
+        muted2:   "rgb(255, 253, 251)",
         cream:    "#F4EFE9",
       },
       fontFamily: {
