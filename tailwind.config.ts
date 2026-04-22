@@ -23,7 +23,7 @@ const config: Config = {
         surface2: "#2b2b2b",
         muted:    "#5A5A55",
         muted2:   "rgb(255, 249, 243)",
-        cream:    "#F4EFE9",
+        cream:    "#fdf4e6",
       },
       fontFamily: {
         display: ["Epilogue", "sans-serif"],
