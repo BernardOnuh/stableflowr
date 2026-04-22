@@ -19,7 +19,7 @@ const config: Config = {
       colors: {
         orange: { DEFAULT: "#FF5500", dim: "#ff5804" },
         black:    "#060606",
-        surface:  "#101010",
+        surface:  "#080808",
         surface2: "#161616",
         muted:    "#5A5A55",
         muted2:   "rgb(255, 253, 251)",
