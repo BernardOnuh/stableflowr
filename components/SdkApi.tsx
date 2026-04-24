@@ -23,9 +23,9 @@ const API_CODE = `curl -X POST https://api.stableflowr.xyz/v1/transfer \\
   -H "Authorization: Bearer YOUR_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
-    "from":      { "chain": "optimism", "token": "USDC" },
+    "from":      { "chain": "base", "token": "USDC" },
     "to":        { "chain": "arbitrum", "token": "USDC" },
-    "amount":    "750",
+    "amount":    "1200",
     "recipient": "0xabcd...def"
   }'
 
@@ -34,7 +34,7 @@ const API_CODE = `curl -X POST https://api.stableflowr.xyz/v1/transfer \\
   "txHash":  "0x3f9a...",
   "status":  "settled",
   "feePaid": "0.00",
-  "timeMs":  2344
+  "timeMs":  1033
 }`;
 
 function CodeHeader({ label, sub }: { label: string; sub: string }) {
