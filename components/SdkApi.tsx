@@ -16,14 +16,14 @@ const SDK_LINES: [string,string][][] = [
   [["  token: ","#94a3b8"],["'USDC'","#fb923c"],[",  amount: ","#F4EFE9"],["'1000'","#fb923c"]],
   [["})", "#F4EFE9"]],
   [],
-  [["// ✓ Settled 1.8s · $0 fee","#FF5500"]],
+  [["// ✓ Settled 1.8s · $./cycle-stableflowr.sh fee","#FF5500"]],
 ];
 
 const API_CODE = `curl -X POST https://api.stableflowr.xyz/v1/transfer \\
   -H "Authorization: Bearer YOUR_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
-    "from":      { "chain": "stacks", "token": "USDC" },
+    "from":      { "chain": "arbitrum", "token": "USDC" },
     "to":        { "chain": "arbitrum", "token": "USDC" },
     "amount":    "500",
     "recipient": "0xabcd...def"
@@ -34,7 +34,7 @@ const API_CODE = `curl -X POST https://api.stableflowr.xyz/v1/transfer \\
   "txHash":  "0x3f9a...",
   "status":  "settled",
   "feePaid": "0.00",
-  "timeMs":  1840
+  "timeMs":  910
 }`;
 
 function CodeHeader({ label, sub }: { label: string; sub: string }) {
