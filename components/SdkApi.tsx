@@ -34,7 +34,7 @@ const API_CODE = `curl -X POST https://api.stableflowr.xyz/v1/transfer \\
   "txHash":  "0x3f9a...",
   "status":  "settled",
   "feePaid": "0.00",
-  "timeMs":  1001
+  "timeMs":  1208
 }`;
 
 function CodeHeader({ label, sub }: { label: string; sub: string }) {
