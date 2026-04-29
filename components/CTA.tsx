@@ -13,7 +13,7 @@ export default function CTA() {
             <span key={i} style={{
               display:"flex",alignItems:"center",gap:7,
               fontFamily:"JetBrains Mono,monospace",fontSize:"clamp(11px,1.2vw,13px)",
-              color: i%chains.length===0 ? "#FF5500" : "#5A5A55", whiteSpace:"nowrap",
+              color: i%chains.length===0 ? "#fa5a0a" : "#5A5A55", whiteSpace:"nowrap",
             }}>
               <span style={{ width:5,height:5,borderRadius:"50%",background:i%chains.length===0?"#FF5500":"#252523",display:"inline-block" }}/>
               {c}
