@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const features = [
-  { icon:"⚡", title:"SDK First",      tag:"npm i stableflowr",   desc:"One npm package. Full TypeScript support. Works with Stacks.js, ethers, viem — any wallet stack." },
+  { icon:"⚡", title:"SDK First",      tag:"npm i @stableflowr",   desc:"One npm package. Full TypeScript support. Works with Stacks.js, ethers, viem — any wallet stack." },
   { icon:"🔌", title:"REST API",        tag:"api.stableflowr.xyz", desc:"Language-agnostic HTTP API. Signed requests, webhook callbacks, and full audit logs out of the box." },
   { icon:"🔀", title:"Smart Routing",   tag:"Best rate, always",   desc:"Auto-selects fastest & cheapest route across CCTP, Across, LayerZero. No manual config needed." },
   { icon:"🔐", title:"Non-custodial",   tag:"Your keys, always",   desc:"We never hold your funds. Transfers are signed client-side with your wallet. Pure on-chain execution." },
