@@ -6,13 +6,13 @@
 
 
 :root {
-  --orange: #FF5500;
-  --orange-dim: #f15608;
-  --black: #080808;
-  --surface: #101010;
+  --orange: #00D4FF;
+  --orange-dim: #00bbdd;
+  --black: #060c0d;
+  --surface: #0d1518;
   --border: rgba(255,255,255,0.08);
   --white: #ffffff;
-  --muted: #545451;
+  --muted: #445558;
   --muted2: #000000;
 }
 
@@ -24,12 +24,12 @@
   ::-webkit-scrollbar { width: 3px; }
   ::-webkit-scrollbar-track { background: #080808; }
   ::-webkit-scrollbar-thumb { background: #252523; border-radius: 2px; }
-  ::selection { background: #FF5500; color: #080808; }
+  ::selection { background: #00D4FF; color: #080808; }
 }
 
 /* Cursor — only on mouse devices */
 @media (pointer: fine) {
-  .sf-cursor { width:10px;height:10px;background:#FF5500;border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .2s,height .2s; }
+  .sf-cursor { width:10px;height:10px;background:#00D4FF;border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .2s,height .2s; }
   .sf-ring { width:34px;height:34px;border:1.5px solid rgba(255,85,0,.4);border-radius:50%;position:fixed;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .3s,height .3s; }
   .sf-cursor.big { width:20px;height:20px; }
   .sf-ring.big { width:56px;height:56px; }
